@@ -6,6 +6,9 @@ go:
 os:
   - linux
   - osx
+arch:
+  - amd64
+  - ppc64le
 script:
   - go test -coverprofile=coverage.txt -covermode=atomic
 install:
